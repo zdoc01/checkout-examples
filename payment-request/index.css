@@ -1,0 +1,19 @@
+#checkout {
+  height: 50px;
+  width: 200px;
+  margin: 100px auto;
+  display: block;
+  cursor: pointer;
+  background-color: #00A2FF;
+  border-color: #00A2FF;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#checkout:disabled {
+  background-color: gray;
+  border-color: gray;
+  cursor: not-allowed;
+}

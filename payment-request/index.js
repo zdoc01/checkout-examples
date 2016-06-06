@@ -1,0 +1,1 @@
+alert('Payment Request Demo test...');

@@ -1,0 +1,6 @@
+{
+  "name": "Checkout-examples",
+  "tagline": "Checkout integration examples available on the web.",
+  "body": "# Checkout Examples\r\nThis project aims to show multiple checkout integration examples available on the web.\r\n\r\n## Payment Request\r\nCheckout example using the new [W3C Payment Request API](https://www.w3.org/TR/payment-request/). At time of writing this feature was only available on Android in Dev versions of Chrome (originally tested against version 52.0.2743.25). The Chrome implementation was demoed at Google I/O 2016 as part of the [Bringing seemless checkouts to the mobile web](https://www.youtube.com/watch?v=yelPlCVZLEE&index=19&list=PLNYkxOF6rcIDz1TzmmMRBC-kd8zPRTQIP) talk given by Alex Sieke and Rouslan Solomakhin.\r\n\r\nKey things to consider:\r\n* Provides one-touch payment option - no need to fill in forms\r\n* Can easily integrate with third-party payment solutions such as Android Pay\r\n* Only supported in top-level contexts (i.e. not supported in lower level contexts like iframes - See [Issue #2](https://github.com/w3c/browser-payment-api/issues/2))\r\n\r\n[Demo](payment-request/index.html)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
